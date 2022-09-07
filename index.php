@@ -10,86 +10,87 @@
     <title>ASE 230 - class of Spring/Fall/Summer 20XX</title>
 </head>
 <body>
-    <?php
-        echo
-        "<div class=\"container text-center\">
-            <h1>This is ASE 230 - class of Spring/Fall/Summer 20XX</h1>
-        </div>
-            <div class=\"container\">
-                <div class=\"row justify-content-center\">
-                <div class=\"col-12 col-sm-8 col-lg-6\">
-                    <!-- Section Heading-->
-                    <div class=\"section_heading text-center wow fadeInUp\" data-wow-delay=\"0.2s\" style=\"visibility: visible; animation-delay: 0.2s; animation-name: fadeInUp;\">
-                        <h3>Our Creative <span> Team</span></h3>
-                        <p>Appland is completely creative, lightweight, clean &amp; super responsive app landing page.</p>
-                    <div class=\"line\"></div>
-                    </div>
-                </div>
-            </div>
-            <div class=\"row\">
-            <!-- Single Advisor-->
-            <div class=\"col-12 col-sm-6 col-lg-3\">
-                <div class=\"single_advisor_profile wow fadeInUp\" data-wow-delay=\"0.2s\" style=\"visibility: visible; animation-delay: 0.2s; animation-name: fadeInUp;\">
-                <!-- Team Thumb-->
-                <div class=\"advisor_thumb\"><a href=\"ANDREW_WOLL.php\"><img src=\"https://bootdey.com/img/Content/avatar/avatar1.png\" alt=\"\"></a>
-                    <!-- Social Info-->
-                    <div class=\"social-info\"><a href=\"ANDREW_WOLL.php\"><i class=\"fa fa-facebook\"></i></a><a href=\"ANDREW_WOLL.php\"><i class=\"fa fa-twitter\"></i></a><a href=\"ANDREW_WOLL.php\"><i class=\"fa fa-linkedin\"></i></a></div>
-                </div>
-                <!-- Team Details-->
-                    <div class=\"single_advisor_details_info\">
-                        <h6>Andrew Woll</h6>
-                        <p class=\"designation\">Software Engineer</p>
-                    </div>
-                </div>
-            </div>
-            <!-- Single Advisor-->
-            <div class=\"col-12 col-sm-6 col-lg-3\">
-                <div class=\"single_advisor_profile wow fadeInUp\" data-wow-delay=\"0.3s\" style=\"visibility: visible; animation-delay: 0.3s; animation-name: fadeInUp;\">
-                    <!-- Team Thumb-->
-                    <div class=\"advisor_thumb\"><a href=\"ANDREW_WOLL.php\"><img src=\"https://bootdey.com/img/Content/avatar/avatar7.png\" alt=\"\"></a>
-                    <!-- Social Info-->
-                    <div class=\"social-info\"><a href=\"ANDREW_WOLL.php\"><i class=\"fa fa-facebook\"></i></a><a href=\"ANDREW_WOLL.php\"><i class=\"fa fa-twitter\"></i></a><a href=\"ANDREW_WOLL.php\"><i class=\"fa fa-linkedin\"></i></a></div>
-                    </div>
-                    <!-- Team Details-->
-                    <div class=\"single_advisor_details_info\">
-                        <h6>Nazrul Islam</h6>
-                        <p class=\"designation\">UI Designer</p>
-                    </div>
-                </div>
-            </div>
-            <!-- Single Advisor-->
-            <div class=\"col-12 col-sm-6 col-lg-3\">
-                <div class=\"single_advisor_profile wow fadeInUp\" data-wow-delay=\"0.4s\" style=\"visibility: visible; animation-delay: 0.4s; animation-name: fadeInUp;\">
-                <!-- Team Thumb-->
-                <div class=\"advisor_thumb\"><a href=\"ANDREW_WOLL.php\"><img src=\"https://bootdey.com/img/Content/avatar/avatar6.png\" alt=\"\"></a>
-                <!-- Social Info-->
-                <div class=\"social-info\"><a href=\"ANDREW_WOLL.php\"><i class=\"fa fa-facebook\"></i></a><a href=\"ANDREW_WOLL.php\"><i class=\"fa fa-twitter\"></i></a><a href=\"ANDREW_WOLL.php\"><i class=\"fa fa-linkedin\"></i></a></div>
-                </div>
-                <!-- Team Details-->
-                    <div class=\"single_advisor_details_info\">
-                        <h6>Riyadh Khan</h6>
-                        <p class=\"designation\">Developer</p>
-                    </div>
-                </div>
-            </div>
-            <!-- Single Advisor-->
-            <div class=\"col-12 col-sm-6 col-lg-3\">
-                <div class=\"single_advisor_profile wow fadeInUp\" data-wow-delay=\"0.5s\" style=\"visibility: visible; animation-delay: 0.5s; animation-name: fadeInUp;\">
-                <!-- Team Thumb-->
-                <div class=\"advisor_thumb\"><a href=\"ANDREW_WOLL.php\"><img src=\"https://bootdey.com/img/Content/avatar/avatar2.png\" alt=\"\"></a>
-                <!-- Social Info-->
-                <div class=\"social-info\"><a href=\"ANDREW_WOLL.php\"><i class=\"fa fa-facebook\"></i></a><a href=\"ANDREW_WOLL.php\"><i class=\"fa fa-twitter\"></i></a><a href=\"ANDREW_WOLL.php\"><i class=\"fa fa-linkedin\"></i></a></div>
-                </div>
-                <!-- Team Details-->
-                    <div class=\"single_advisor_details_info\">
-                        <h6>Niloy Islam</h6>
-                        <p class=\"designation\">Marketing Manager</p>
-                    </div>
-                </div>
-            </div>
-            </div>
-            </div>";
+    <?php 
+        $name = "Andrew Woll";
+        $title = "Software Engineer";
     ?>
+    <div class="container text-center">
+        <h1>This is ASE 230 - class of Spring/Fall/Summer 20XX</h1>
+    </div>
+    <div class="container">
+        <div class="row justify-content-center">
+        <div class="col-12 col-sm-8 col-lg-6">
+            <!-- Section Heading-->
+            <div class="section_heading text-center wow fadeInUp" data-wow-delay="0.2s" style="visibility: visible; animation-delay: 0.2s; animation-name: fadeInUp;">
+                <h3>Our Creative <span> Team</span></h3>
+                <p>Appland is completely creative, lightweight, clean &amp; super responsive app landing page.</p>
+            <div class="line"></div>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+    <!-- Single Advisor-->
+        <div class="col-12 col-sm-6 col-lg-3">
+            <div class="single_advisor_profile wow fadeInUp" data-wow-delay="0.2s" style="visibility: visible; animation-delay: 0.2s; animation-name: fadeInUp;">
+            <!-- Team Thumb-->
+            <div class="advisor_thumb"><a href="ANDREW_WOLL.php"><img src="https://bootdey.com/img/Content/avatar/avatar1.png" alt=""></a>
+                <!-- Social Info-->
+                <div class="social-info"><a href="ANDREW_WOLL.php"><i class="fa fa-facebook"></i></a><a href="ANDREW_WOLL.php"><i class="fa fa-twitter"></i></a><a href="ANDREW_WOLL.php"><i class="fa fa-linkedin"></i></a></div>
+            </div>
+            <!-- Team Details-->
+                <div class="single_advisor_details_info">
+                    <h6><?php echo "$name" ?></h6>
+                    <p class="designation"><?php echo "$title" ?></p>
+                </div>
+            </div>
+        </div>
+        <!-- Single Advisor-->
+        <div class="col-12 col-sm-6 col-lg-3">
+            <div class="single_advisor_profile wow fadeInUp" data-wow-delay="0.3s" style="visibility: visible; animation-delay: 0.3s; animation-name: fadeInUp;">
+                <!-- Team Thumb-->
+                <div class="advisor_thumb"><a href="ANDREW_WOLL.php"><img src="https://bootdey.com/img/Content/avatar/avatar7.png" alt=""></a>
+                <!-- Social Info-->
+                <div class="social-info"><a href="ANDREW_WOLL.php"><i class="fa fa-facebook"></i></a><a href="ANDREW_WOLL.php"><i class="fa fa-twitter"></i></a><a href="ANDREW_WOLL.php"><i class="fa fa-linkedin"></i></a></div>
+                </div>
+                <!-- Team Details-->
+                <div class="single_advisor_details_info">
+                    <h6>Nazrul Islam</h6>
+                    <p class="designation">UI Designer</p>
+                </div>
+            </div>
+        </div>
+        <!-- Single Advisor-->
+        <div class="col-12 col-sm-6 col-lg-3">
+            <div class="single_advisor_profile wow fadeInUp" data-wow-delay="0.4s" style="visibility: visible; animation-delay: 0.4s; animation-name: fadeInUp;">
+            <!-- Team Thumb-->
+            <div class="advisor_thumb"><a href="ANDREW_WOLL.php"><img src="https://bootdey.com/img/Content/avatar/avatar6.png" alt=""></a>
+            <!-- Social Info-->
+            <div class="social-info"><a href="ANDREW_WOLL.php"><i class="fa fa-facebook"></i></a><a href="ANDREW_WOLL.php"><i class="fa fa-twitter"></i></a><a href="ANDREW_WOLL.php"><i class="fa fa-linkedin"></i></a></div>
+            </div>
+            <!-- Team Details-->
+                <div class="single_advisor_details_info">
+                    <h6>Riyadh Khan</h6>
+                    <p class="designation">Developer</p>
+                </div>
+            </div>
+        </div>
+        <!-- Single Advisor-->
+        <div class="col-12 col-sm-6 col-lg-3">
+            <div class="single_advisor_profile wow fadeInUp" data-wow-delay="0.5s" style="visibility: visible; animation-delay: 0.5s; animation-name: fadeInUp;">
+            <!-- Team Thumb-->
+            <div class="advisor_thumb"><a href="ANDREW_WOLL.php"><img src="https://bootdey.com/img/Content/avatar/avatar2.png" alt=""></a>
+            <!-- Social Info-->
+            <div class="social-info"><a href="ANDREW_WOLL.php"><i class="fa fa-facebook"></i></a><a href="ANDREW_WOLL.php"><i class="fa fa-twitter"></i></a><a href="ANDREW_WOLL.php"><i class="fa fa-linkedin"></i></a></div>
+            </div>
+            <!-- Team Details-->
+                <div class="single_advisor_details_info">
+                    <h6>Niloy Islam</h6>
+                    <p class="designation">Marketing Manager</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>";
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
 </body>
